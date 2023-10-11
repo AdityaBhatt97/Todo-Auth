@@ -1,0 +1,24 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.quantity {
+  position: absolute;
+  top: 0;
+  right: 2px;
+}
+
+.btn{
+  font-size: 1.4rem;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  min-width: 7vw;
+}
+
+.btn:hover{
+  scale: 1.2
+}

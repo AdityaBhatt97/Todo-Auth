@@ -1,0 +1,66 @@
+.register{
+    background: url('https://media.discordapp.net/attachments/981697547171151953/1078961253361389598/Ethan__SpardaXZ_add_clouds_in_the_sky_and_make_this_image_from__d0b82d6b-2f66-486d-8090-3e46b8b7b1ef.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: calc(70%);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-input{
+    width: 40vw;
+    height: 47vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgba(36, 35, 35, 0.822); */
+    background: rgba(255, 255, 255, 0.1);
+    /* background-color: transparent; */
+    border: 2px solid white;
+    backdrop-filter: blur(5px);
+
+    border-radius: .8rem;
+}
+
+.register-input input{
+    padding: .8rem;
+    width: 70%;
+    font-size: 1.1rem;
+      text-align: center;
+      border-radius: .8rem;
+      margin-bottom: .5rem;
+}
+
+.register-input h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.register-input button{
+    padding: .5rem;
+    font-size: 1.1rem;
+    /* background-color: rgb(236, 240, 28); */
+    /* background: linear-gradient( white , yellow); */
+    background-color: rgb(37, 36, 36);
+  
+
+    letter-spacing: 1px;
+    width: 20%;
+    color: white;
+    /* color: black; */
+    border-radius: 1.4rem;
+    border: none;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin-bottom: 1rem;
+}
+
+.register-input button:hover{
+    scale: 1.2;
+}

@@ -1,0 +1,46 @@
+.navbar{
+    width: 100vw;
+    
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3.2rem;
+    color: white;
+
+}
+
+.left{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin-left: 2vw; */
+}
+
+.right{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-right: 2vw; */
+}
+.right div{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.right button{
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    padding: .5rem;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.right button:hover{
+    scale: 1.2;
+}

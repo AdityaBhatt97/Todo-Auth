@@ -1,0 +1,128 @@
+.add-todo{
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.home{
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    background: url('https://media.discordapp.net/attachments/981697547171151953/1078961253361389598/Ethan__SpardaXZ_add_clouds_in_the_sky_and_make_this_image_from__d0b82d6b-2f66-486d-8090-3e46b8b7b1ef.png');
+      
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-position-y: calc(70%);
+    background-size: cover;
+}
+
+.todo-input{
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: blueviolet; */
+    background-color: white;
+    border-radius: 5%;
+    /* color: black; */
+    color: white;
+        background: rgba(255, 255, 255, 0.1);
+    /* background-color: transparent; */
+    border: 2px solid white;
+    backdrop-filter: blur(5px);
+}
+.todo-input  h2{
+    font-size: 2.5rem;
+}
+
+.todo-input input{
+    text-align: center;
+    width: 50%;
+    min-height: 4vh;
+    border-radius: 10%;
+}
+
+.todo-input h3{
+    font-size: 1.5rem;
+}
+.todo-input textarea{
+    padding: 2px;
+    font-size: 1.3rem;
+}
+
+/* TodoList */
+
+.todoList{
+    width: 100vw;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1vh;
+}
+
+.todos{
+    width: 70vw;
+    border-radius: 4% 10%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: white;
+    margin-top: 2vh;
+    padding: 10px;
+    border-radius:30px 30px 30px 30px;
+    margin-bottom: 2vh;
+
+    background: rgba(255, 255, 255, 0.1);
+    /* background-color: transparent; */
+    border: 2px solid white;
+    backdrop-filter: blur(5px);
+    
+}
+
+.todos p {
+    margin-top: 4px;
+}
+
+.todos-title{
+    /* border-bottom: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 1.4rem;
+}
+.todos-title span {
+    font-size: 1.7rem;
+}
+
+.todos-title div {
+    width: 10%;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.todos-title div button{
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    width: 3vw;
+    height:  3vh;
+    margin-bottom: 1vh;
+    cursor: pointer;
+}
+.todos-title h3{
+    margin-left: 7vw;
+    text-decoration: underline;
+     color: white; 
+}
